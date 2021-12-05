@@ -6,7 +6,6 @@ var bingoBoards = []
 input.slice(1).forEach(board => {
     bingoBoards.push(board.split("\n").map(line => line.match(/.{1,3}/g).map(num => num.replace(/\s/g, ''))).flat(2));
 });
-//console.log(test);
 
 var bingo = false;
 while(!bingo) {
