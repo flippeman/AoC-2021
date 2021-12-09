@@ -10,4 +10,4 @@ positions.forEach(pos => {
     fuelTot += (((Math.abs(pos-average))*(Math.abs(pos-average)+1))/2);
 })
 
-console.log(fuelTot);
+console.log(fuelTot); 
